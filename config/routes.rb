@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
+
+  root 'demo#index'
+
   get 'demo/index'
-  #get ':controller(/:action(/:id))'
+
+  get 'demo/hello'
+
+
 
 end
